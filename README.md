@@ -4,6 +4,8 @@ This is a work in progress- expect bugs, unnexpected behavior, and even dragons.
 
 * [Here is my Slimbox remix- the Slimbox Lite Mini](https://www.printables.com/model/1355280-slimbox-lite-mini), the the intended controller project that this firmware is intended to be used with.
 
+At this time the only changes that have been made to the original project are to the files "main.c" and "seeed_xiao_nrf52840.dts" to accomodate the adjustments for the lower button count.
+
 ## Pinout
 
 If you're using the `slimbox-lite-mini-bt.uf2` (not yet released) firmware with a Seeed Studio nRF52840 BLE board, wire the buttons to pins on the board as follows:
