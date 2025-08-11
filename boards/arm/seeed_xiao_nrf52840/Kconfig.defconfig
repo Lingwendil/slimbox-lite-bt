@@ -12,10 +12,10 @@ config BT_CTLR
 	default BT
 
 config BT_DEVICE_NAME
-	default "Flatbox rev7"
+	default "Slimbox Lite Mini"
 
 config KERNEL_BIN_NAME
-	default "flatbox-rev7"
+	default "slimbox-lite-mini"
 
 config I2C
 	default y
