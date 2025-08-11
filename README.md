@@ -23,20 +23,13 @@ D9 | up
 D10| down
 
 
-Follows is the original text from Jfedor2's work on his original project.
+What follows is an excerpt from the original text from Jfedor2's work on his original project.
 
 # Slimbox BT
 
 _This is a work in progress._
 
 This repository contains code for wireless game controller firmware meant to run on Nordic's nRF52840 chip.
-
-Pre-built binaries are provided for the following devices:
-
-* [Slimbox BT](https://www.printables.com/model/923690-slimbox-bt): [slimbox-bt.uf2](https://github.com/jfedor2/slimbox-bt/releases/latest/download/slimbox-bt.uf2)
-* [Flatbox rev7](https://github.com/jfedor2/flatbox/tree/master/hardware-rev7): [flatbox-rev7.uf2](https://github.com/jfedor2/slimbox-bt/releases/latest/download/flatbox-rev7.uf2)
-
-The `slimbox-bt.uf2` firmware will also work with any handwired controller that uses the [Adafruit Feather nRF52840 Express](https://www.adafruit.com/product/4062) board.
 
 ## How to use
 
