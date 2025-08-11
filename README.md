@@ -59,18 +59,6 @@ docker run --rm -v $(pwd):/workdir/project -w /workdir/project nordicplayground/
 
 (Replace "adafruit\_feather\_nrf52840" with the board you're compiling for.)
 
-## TODO
-
-* wired operation when connected over USB
-* battery level reporting
-* measure and optimize power consumption
-* analog inputs for sticks and triggers
-* version for nRF52832 boards
-* LEDs as status indicators
-* split board configurations into device-specific overlays
-* compatibility with other platforms
-* figure out why directed advertising doesn't seem to work
-
 ## License
 
 The software in this repository is licensed under the [MIT License](LICENSE).
