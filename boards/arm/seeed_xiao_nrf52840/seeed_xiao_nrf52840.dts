@@ -33,10 +33,10 @@
 			gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;
 			label = "Blue LED";
 		};
-		expanderreset: expander_reset {
-			gpios = <&gpio1 13 GPIO_ACTIVE_LOW>;
-			label = "expander reset";
-		};
+//		expanderreset: expander_reset {
+//			gpios = <&gpio1 13 GPIO_ACTIVE_LOW>;
+//			label = "expander reset";
+//		};
 	};
 
 	buttons {
