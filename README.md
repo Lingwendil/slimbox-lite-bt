@@ -6,7 +6,7 @@ This is a work in progress, and expect bugs, unnexpected behavior, and even drag
 
 ## Pinout
 
-If you're using the `slimbox-lite mini-bt.uf2` (not yet released) firmware with a Seeed Studio nRF52840 BLE board, wire the buttons to pins on the board as follows:
+If you're using the `slimbox-lite-mini-bt.uf2` (not yet released) firmware with a Seeed Studio nRF52840 BLE board, wire the buttons to pins on the board as follows:
 
 pin | button
 --- | ------
