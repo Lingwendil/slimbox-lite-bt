@@ -66,7 +66,7 @@
 		led0 = &led0;
 		led1 = &led1;
 		sw0 = &button0;
-		expanderreset = &expanderreset;
+//		expanderreset = &expanderreset;
 	};
 };
 
