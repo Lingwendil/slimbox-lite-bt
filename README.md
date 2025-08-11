@@ -59,7 +59,7 @@ To compile it yourself, you can either follow [Nordic's setup instructions](http
 docker run --rm -v $(pwd):/workdir/project -w /workdir/project nordicplayground/nrfconnect-sdk:v2.6-branch west build -b adafruit_feather_nrf52840
 ```
 
-(Replace "adafruit\_feather\_nrf52840" with the board you're compiling for.)
+(Replace "seeed_xiao_nrf52840" with the board you're compiling for.)
 
 ## License
 
