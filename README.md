@@ -2,7 +2,26 @@ This is a fork of Jfedor2's Slimbox Bluetooth firmware using the Nordic nRF52840
 
 This is a work in progress, and expect bugs, unnexpected behavior, and even dragons.
 
-* [Here is my Slimbox remix- the Slimbox Lite Mini](https://www.printables.com/model/1355280-slimbox-lite-mini) This is the intended controller project that this firmware is intended to be used with.
+* [Here is my Slimbox remix- the Slimbox Lite Mini](https://www.printables.com/model/1355280-slimbox-lite-mini), the the intended controller project that this firmware is intended to be used with.
+
+## Pinout
+
+If you're using the `slimbox-lite mini-bt.uf2` (not yet released) firmware with a Seeed Studio nRF52840 BLE board, wire the buttons to pins on the board as follows:
+
+pin | button
+--- | ------
+D0 | Menu/Start
+D1 | Options/Select
+D2 | Stadia/Home
+D3 | A
+D4 | B
+D5 | X
+D6 | Y
+D7 | left
+D8| right
+D9 | up
+D10| down
+
 
 Follows is the original text from Jfedor2's work on his original project.
 
@@ -34,31 +53,6 @@ To put the controller in firmware flashing mode (if that's a thing on the board 
 Assuming you're using one of the devices for which pre-built binaries are provided, to flash the firmware connect the device to your computer with a USB cable, then press the RESET button twice quickly. A USB drive should appear on your computer. The name of the drive will depend on what device you're using, on the Adafruit Feather nRF52840 Express, the drive is named "FTHR840BOOT". Download the appropriate UF2 file from the releases section (`slimbox-bt.uf2` for the Adafruit Feather nRF52840 Express) and copy it to the drive that appeared.
 
 If you already have some previous version of this firmware on your board, instead of pressing the RESET button twice you can hold the "start" button for 10 seconds to enter firmware flashing mode.
-
-## Pinout
-
-If you're using the `slimbox-bt.uf2` firmware with an Adafruit Feather nRF52840 Express board, wire the buttons to pins on the board as follows:
-
-pin | button
---- | ------
-A5 | cross
-A4 | circle
-D2 | square
-MI | triangle
-10 | left
-6 | right
-A0 | up
-9 | down
-SCK | L1
-MO | R1
-A2 | L2
-A3 | R2
-12 | L3
-13 | R3
-SDA | select
-11 | start
-SCL | home
-5 | capture
 
 ## How to compile
 
