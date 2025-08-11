@@ -97,22 +97,22 @@
 	pinctrl-names = "default", "sleep";
 };
 
-&i2c0 {
-	compatible = "nordic,nrf-twi";
-	status = "okay";
-	pinctrl-0 = <&i2c0_default>;
-	pinctrl-1 = <&i2c0_sleep>;
-	pinctrl-names = "default", "sleep";
+//&i2c0 {
+//	compatible = "nordic,nrf-twi";
+//	status = "okay";
+//	pinctrl-0 = <&i2c0_default>;
+//	pinctrl-1 = <&i2c0_sleep>;
+//	pinctrl-names = "default", "sleep";
 
-	expander1: mcp230xx@20 {
-		compatible = "microchip,mcp230xx";
-		reg = <0x20>;
-		gpio-controller;
-		#gpio-cells = <2>;
-		ngpios = <16>;
-/*		int-gpios = <&gpio1 13 0>; */
-		reset-gpios = <&gpio1 13 GPIO_ACTIVE_LOW>;
-	};
+//	expander1: mcp230xx@20 {
+//		compatible = "microchip,mcp230xx";
+//		reg = <0x20>;
+//		gpio-controller;
+//		#gpio-cells = <2>;
+//		ngpios = <16>;
+///*		int-gpios = <&gpio1 13 0>; */
+//		reset-gpios = <&gpio1 13 GPIO_ACTIVE_LOW>;
+//	};
 
 };
 
