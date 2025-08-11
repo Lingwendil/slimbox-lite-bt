@@ -1,8 +1,8 @@
-This is a fork of Jfedor2's Slimbox Bluetooth firmware using the Nordic nRF52840 chips. I am attempting to modify this firmware to specifically only use from 2-4 action buttons for a lightweight, simple controller implementation to pair with my remix of Jfedor2's original Slimbox projects. As my use case is often for simple controllers with only two or four buttons for Emulation (Neo-Geo, Gameboy, NES, MAME/Arcade) I wanted to trim the code down t work with the simple, tiny, affordable Seeed Xiao type boards.
+This is a fork of Jfedor2's Slimbox Bluetooth firmware using the Nordic nRF52840 chips. I am attempting to modify this firmware to specifically only use from 2-4 action buttons for a lightweight, simple controller implementation to pair with my remix of Jfedor2's original Slimbox projects. As my use case is often for simple controllers with only two or four buttons for Emulation (Neo-Geo, Gameboy, NES, MAME/Arcade) I wanted to trim the code down to work with the simple, tiny, affordable Seeed Xiao type boards.
 
 This is a work in progress, and expect bugs, unnexpected behavior, and even dragons.
 
-*[Here is my Slimbox remix- the Slimbox Lite Mini](https://www.printables.com/model/1355280-slimbox-lite-mini) This is the intended controller project that this firmware is intended to be used with.
+* [Here is my Slimbox remix- the Slimbox Lite Mini](https://www.printables.com/model/1355280-slimbox-lite-mini) This is the intended controller project that this firmware is intended to be used with.
 
 Follows is the original text from Jfedor2's work on his original project.
 
