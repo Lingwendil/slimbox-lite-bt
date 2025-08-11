@@ -2,7 +2,7 @@ This is a fork of Jfedor2's Slimbox Bluetooth firmware using the Nordic nRF52840
 
 This is a work in progress, and expect bugs, unnexpected behavior, and even dragons.
 
-*[Here is my Slimbox remix- the Slimbox Lite Mini](https://www.printables.com/model/1355280-slimbox-lite-mini)
+*[Here is my Slimbox remix- the Slimbox Lite Mini](https://www.printables.com/model/1355280-slimbox-lite-mini) This is the intended controller project that this firmware is intended to be used with.
 
 Follows is the original text from Jfedor2's work on his original project.
 
