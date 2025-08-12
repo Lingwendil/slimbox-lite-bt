@@ -48,10 +48,10 @@
 		button4: button_4 { gpios = <&gpio0 4 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>; label = "D4"; };
 		button5: button_5 { gpios = <&gpio0 5 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>; label = "D5"; };
 		button6: button_6 { gpios = <&gpio1 11 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>; label = "D6"; };
-		button6: button_7 { gpios = <&gpio1 12 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>; label = "D7"; };
-		button6: button_8 { gpios = <&gpio1 13 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>; label = "D8"; };
-		button6: button_9 { gpios = <&gpio1 14 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>; label = "D9"; };
-		button6: button_10 { gpios = <&gpio1 15 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>; label = "D10"; };
+		button7: button_7 { gpios = <&gpio1 12 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>; label = "D7"; };
+		button8: button_8 { gpios = <&gpio1 13 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>; label = "D8"; };
+		button9: button_9 { gpios = <&gpio1 14 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>; label = "D9"; };
+		button10: button_10 { gpios = <&gpio1 15 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>; label = "D10"; };
 
 	};
 
