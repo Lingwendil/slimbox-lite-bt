@@ -172,3 +172,5 @@ zephyr_udc0: &usbd {
 	compatible = "nordic,nrf-usbd";
 	status = "okay";
 };
+
+//edits by lingwendil@gmail.com
