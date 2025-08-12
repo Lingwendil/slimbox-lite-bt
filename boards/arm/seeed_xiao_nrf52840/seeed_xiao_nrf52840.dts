@@ -173,4 +173,4 @@ zephyr_udc0: &usbd {
 	status = "okay";
 };
 
-//edits by lingwendil@gmail.com
+//edits by lingwendil@gmail.com 0812
