@@ -17,10 +17,10 @@ config BT_DEVICE_NAME
 config KERNEL_BIN_NAME
 	default "slimbox-lite-mini"
 
-//config I2C
-//	default y
+config I2C
+	default y
 
-//config GPIO_MCP230XX
-//	default y
+config GPIO_MCP230XX
+	default y
 
 endif # BOARD_SEEED_XIAO_NRF52840
