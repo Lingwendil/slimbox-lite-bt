@@ -108,7 +108,7 @@
 //		reset-gpios = <&gpio1 13 GPIO_ACTIVE_LOW>;
 //	};
 
-};
+/};
 
 &spi1 {
 	compatible = "nordic,nrf-spi";
